@@ -11,11 +11,11 @@ appropriately.
 
 The possible `make` targets are:
 
-- `grub` - GRUB2 Documentation [https://www.gnu.org/software/grub/manual/grub/]
+- `grub`        - GRUB2 Documentation [https://www.gnu.org/software/grub/manual/grub/]
+- `grub-dev`    - GRUB2 Developers Manual [https://www.gnu.org/software/grub/manual/grub-dev/]
 
 Additional `make` targets that have not been implemented are:
 
-- `grub-dev`    - GRUB2 Developers Manual [https://www.gnu.org/software/grub/manual/grub-dev/]
 - `grub-legacy` - GRUB Legacy Documentation [https://www.gnu.org/software/grub/manual/legacy/]
 - `multiboot`   - Multiboot Specification [https://www.gnu.org/software/grub/manual/multiboot/]
 - `multiboot2`  - Multiboot2 Specification [https://www.gnu.org/software/grub/manual/multiboot2/]
