@@ -1,0 +1,29 @@
+Here is a script and a Makefile for generating GNU Grub-related docsets for Dash. The script is based on the dash-docset-generation-template
+
+- GNU Grub: https://www.gnu.org/software/grub/
+- Dash: https://kapeli.com/dash
+- dash-docset-generation-template: https://github.com/lshprung/dash-docset-generation-template
+
+To generate docsets from the latest edition of the GNU Grub-related Manuals, 
+simply execute `make` from the same directory as this README file.
+The latest edition will be downloaded from www.gnu.org and packaged 
+appropriately.
+
+The possible `make` targets are:
+
+- `grub` - GRUB2 Documentation [https://www.gnu.org/software/grub/manual/grub/]
+
+Additional `make` targets that have not been implemented are:
+
+- `grub-dev`    - GRUB2 Developers Manual [https://www.gnu.org/software/grub/manual/grub-dev/]
+- `grub-legacy` - GRUB Legacy Documentation [https://www.gnu.org/software/grub/manual/legacy/]
+- `multiboot`   - Multiboot Specification [https://www.gnu.org/software/grub/manual/multiboot/]
+- `multiboot2`  - Multiboot2 Specification [https://www.gnu.org/software/grub/manual/multiboot2/]
+
+Requirements:
+
+- any POSIX-compliant shell
+- curl    - https://curl.se/
+- make    - https://www.gnu.org/software/make/
+- pup     - https://github.com/ericchiang/pup
+- sqlite3 - https://www.sqlite.org/index.html
